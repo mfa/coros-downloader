@@ -1,0 +1,15 @@
+[project]
+name = "coros-api"
+version = "0.1.0"
+description = "Python client for downloading Coros activity data"
+readme = "README.md"
+authors = [
+    { name = "Andreas Madsack", email = "andreas@madflex.de" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "httpx>=0.28.1",
+    "requests>=2.32.0",
+    "python-dotenv>=1.0.1",
+    "typer>=0.20.0",
+]
